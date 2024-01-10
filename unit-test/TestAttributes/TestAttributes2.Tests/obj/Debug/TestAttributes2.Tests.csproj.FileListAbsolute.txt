@@ -1,0 +1,15 @@
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\TestAttributes2.Tests.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\TestAttributes2.Tests.pdb
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\obj\Debug\TestAttributes2.Tests.csproj.AssemblyReference.cache
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\obj\Debug\TestAttributes2.Tests.csproj.CoreCompileInputs.cache
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\obj\Debug\TestAttributes2.Tests.csproj.CopyComplete
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\obj\Debug\TestAttributes2.Tests.dll
+C:\Users\nurse\source\repos\TestAttributes\TestAttributes2.Tests\obj\Debug\TestAttributes2.Tests.pdb
