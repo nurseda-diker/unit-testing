@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+	<User name="Monica" phone="123456" mail="monica@gmail.com"/>
+	<User name="Ross" phone="45632" mail="ross@gmail.com"/>
+	<User name="Joey" phone="945687" mail="joey@gmail.com"/>
+	<User name="Rachel" phone="145876" mail="rachel@gmail.com"/>
+	<User name="Chandler" phone="123456" mail="chandler@gmail.com"/>
+	<User name="Phoebe" phone="968574" mail="phoebe@gmail.com"/>
+	<User name="Gunther" phone="120365" mail="gunther@gmail.com"/>
+	<User name="Emma" phone="746315" mail="emma@gmail.com"/>
+</Users>

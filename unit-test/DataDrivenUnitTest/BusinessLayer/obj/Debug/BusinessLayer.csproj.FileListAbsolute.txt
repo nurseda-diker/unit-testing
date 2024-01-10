@@ -1,0 +1,8 @@
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\bin\Debug\BusinessLayer.exe.config
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\bin\Debug\BusinessLayer.exe
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\obj\Debug\BusinessLayer.exe
+C:\Users\nurse\source\repos\DataDrivenUnitTest\BusinessLayer\obj\Debug\BusinessLayer.pdb
