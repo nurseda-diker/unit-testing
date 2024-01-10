@@ -1,13 +1,8 @@
-# Unit Test Projesi
-
-🚀 Bu proje, C# dilinde yazılmış bir birim test projesini içerir ve Test-Driven Development (TDD) ve çeşitli test kavramlarına odaklanmaktadır.
-
+# Unit Testing
 ## 🧪 Birim Test Temelleri
 
 ### Birim Test Nedir?
 🔍 Bir birim test, yazılımınızın belirli bir bölümünün (birim) davranışını doğrulamak için yazılmış bir kod parçasıdır.
-### [createFirstUnitTestProject](https://github.com/sizinGitHubAdınız/createFirstUnitTestProject)
-🔗 `createFirstUnitTestProject` adlı projeme göz atın! Birim test nedir konseptini uygulayan temel bir projedir.
 
 ### TDD (Test-Driven Development) Nedir?
 🚦 TDD, testlerin gerçek kod uygulamasından önce yazıldığı bir yazılım geliştirme yaklaşımıdır. "Test First, Red-Green-Refactor" döngüsünü takip eder.
@@ -20,8 +15,8 @@
 ### Test Yaşam Döngüsü Nedir?
 🔄 Test yaşam döngüsü, bir testin kurulum, yürütme ve temizleme aşamalarını içeren aşamalardır.
 
-### Test, Sınıf, Montaj Düzeyi
-📦 Testler, bireysel testler, test sınıfları içinde ve montaj düzeyinde düzenlenebilir.
+### Test, Sınıf, Assembly Düzeyi
+📦 Testler, bireysel testler, test sınıfları içinde ve assembly düzeyinde düzenlenebilir.
 
 ## 🛠️ Temel Kavramlar
 
@@ -41,15 +36,60 @@
 📊 Veri odaklı testler, aynı test mantığını yürütmek için farklı veri kümesi kullanarak test kapsamını artırır.
 
 ### Test Attributleri
-🏷️ Test attributleri, testler, sınıflar ve montajlar için meta veri ve yapılandırma seçenekleri sağlar.
+🏷️ Test attributes, birim testlerde test metodlarına özel davranışlar kazandırmak için kullanılan özel niteliklerdir.
 
 ### Mocking
-🎭 Mocking, test sırasında gerçek nesneleri simüle etmek için kullanılan bir tekniktir, davranışları üzerinde kontrol sağlar.
+🎭 Mocking, birim testlerde dış bağımlılıkları (örneğin, veritabanı çağrıları veya servis istekleri gibi) taklit etmek ve kontrol etmek amacıyla kullanılan bir tekniktir. Bu, testlerin daha öngörülebilir, tekrarlanabilir ve izole edilmiş olmasını sağlar. Mocking genellikle Moq, Rhino Mocks gibi kütüphanelerle yapılır.
+## 🧪 Mocking Örneği
 
-## 🚀 Başlangıç
+```csharp
+// ILogger interface'i tanımlanır.
+public interface ILogger
+{
+    void LogMessage(string message);
+}
 
-1. Depoyu klonlayın.
-2. Favori IDE'nizde çözümü açın.
-3. Birim testleri çalıştırarak onları gözlemleyin!
+// Moq kullanarak ILogger mock'lanır ve bir metodunun çağrılıp çağrılmadığı kontrol edilir.
+[TestClass]
+public class MyTestClass
+{
+    [TestMethod]
+    public void TestLogging()
+    {
+        // ILogger mock'u oluşturulur.
+        var mockLogger = new Mock<ILogger>();
 
-Katkıda bulunmaktan, sorunları bildirmekten veya geliştirmeler önermekten çekinmeyin. İyi testler! 🧪✨
+        // Bir metod çağrıldığında doğrulama yapılır.
+        mockLogger.Setup(l => l.LogMessage(It.IsAny<string>()));
+
+        // Test edilen sınıfın içinde ILogger kullanılır ve ilgili metod çağrılır.
+        var myClass = new MyClass(mockLogger.Object);
+        myClass.DoSomething();
+
+        // ILogger üzerindeki metodun çağrılıp çağrılmadığı kontrol edilir.
+        mockLogger.Verify(l => l.LogMessage(It.IsAny<string>()), Times.Once);
+    }
+}
+```
+## 📂 Projeler
+
+### 1. [createFirstUnitTestProject](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/CreatingUnitTests)
+Basit bir birim test projesi. Temel birim test kavramlarını ve uygulamalarını içerir.
+
+### 2. [asserts](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/asserts)
+Birim testlerde kullanılan `Assert`, `CollectionAssert` ve `StringAssert` sınıflarının farklı kullanım örnekleri içerir.
+
+### 3. [test-levels](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestLevels)
+Birim testlerin test, class ve assembly seviyelerinin kullanımlarını içeren örnek bir proje.
+
+### 4. [test-context-demo](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestContextDemo)
+`TestContext` sınıfının kullanımını gösteren bir örnek proje.
+
+### 5. [test-attributes](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestAttributes)
+Birim testlerde kullanılan test niteliklerinin (attributes) örnek kullanımlarını içerir.
+
+### 6. [data-driven-unit-test](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/DataDrivenUnitTest)
+Veri odaklı birim testlerin nasıl yazılacağını gösteren bir proje.
+
+### 7. [test-first-development](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestFirstDevelopment)
+Test-Driven Development (TDD) prensiplerine uygun olarak yazılmış bir proje.
