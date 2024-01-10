@@ -1,0 +1,8 @@
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\bin\Debug\ShoppingCart2.exe.config
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\bin\Debug\ShoppingCart2.exe
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\bin\Debug\ShoppingCart2.pdb
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\obj\Debug\ShoppingCart2.csproj.AssemblyReference.cache
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\obj\Debug\ShoppingCart2.csproj.SuggestedBindingRedirects.cache
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\obj\Debug\ShoppingCart2.csproj.CoreCompileInputs.cache
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\obj\Debug\ShoppingCart2.exe
+C:\Users\nurse\source\repos\TestLevels\ShoppingCart2\obj\Debug\ShoppingCart2.pdb
