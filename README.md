@@ -1,4 +1,5 @@
 # Unit Testing
+🚀 Bu repo, C# dilinde yazılmış birim test projesinilerini, Test-Driven Development (TDD) ve çeşitli test kavramlarına içerir.
 ## 🧪 Birim Test Temelleri
 
 ### Birim Test Nedir?
@@ -73,23 +74,23 @@ public class MyTestClass
 ```
 ## 📂 Projeler
 
-### 1. [createFirstUnitTestProject](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/CreatingUnitTests)
+### 1. [First Unit Test Project](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/CreatingUnitTests)
 Basit bir birim test projesi. Temel birim test kavramlarını ve uygulamalarını içerir.
 
-### 2. [asserts](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/asserts)
+### 2. [Asserts](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/asserts)
 Birim testlerde kullanılan `Assert`, `CollectionAssert` ve `StringAssert` sınıflarının farklı kullanım örnekleri içerir.
 
-### 3. [test-levels](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestLevels)
+### 3. [Test Levels](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestLevels)
 Birim testlerin test, class ve assembly seviyelerinin kullanımlarını içeren örnek bir proje.
 
-### 4. [test-context-demo](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestContextDemo)
+### 4. [Test Context Demo](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestContextDemo)
 `TestContext` sınıfının kullanımını gösteren bir örnek proje.
 
-### 5. [test-attributes](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestAttributes)
+### 5. [Test Attributes](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestAttributes)
 Birim testlerde kullanılan test niteliklerinin (attributes) örnek kullanımlarını içerir.
 
-### 6. [data-driven-unit-test](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/DataDrivenUnitTest)
+### 6. [Data Driven Unit Test](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/DataDrivenUnitTest)
 Veri odaklı birim testlerin nasıl yazılacağını gösteren bir proje.
 
-### 7. [test-first-development](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestFirstDevelopment)
+### 7. [Test First Development](https://github.com/nurseda-diker/unit-testing/tree/main/unit-test/TestFirstDevelopment)
 Test-Driven Development (TDD) prensiplerine uygun olarak yazılmış bir proje.
