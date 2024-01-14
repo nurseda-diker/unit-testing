@@ -1,5 +1,5 @@
 # Unit Testing
-🚀 Bu repo, C# dilinde yazılmış birim test projelerini, Test-Driven Development (TDD) ve çeşitli test kavramlarına içerir.
+🚀 Bu repo, C# dilinde yazılmış birim test projelerini, Test-Driven Development (TDD) ve çeşitli test kavramlarını içerir.
 ## 🧪 Birim Test Temelleri
 
 ### Birim Test Nedir?
